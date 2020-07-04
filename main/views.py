@@ -1,4 +1,4 @@
-import requests
+from urllib import request
 from django.http import  HttpResponseRedirect
 from django.shortcuts import render
 from .forms import UserContact
@@ -18,3 +18,5 @@ def socialmedia(request):
     return render(request,'main/socialmedia.html')
 def team(request):
     return render(request,'main/team.html')
+def policy(request):
+    return render(request,'main/policy.html')
