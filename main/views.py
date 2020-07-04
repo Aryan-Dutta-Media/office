@@ -19,4 +19,8 @@ def socialmedia(request):
 def team(request):
     return render(request,'main/team.html')
 def policy(request):
-    return render(request,'main/policy.html')
+
+    
+
+    
+
