@@ -37,7 +37,7 @@ body{
         align-items: center;
         #sec-2-right{
             img{
-                height: 250px;
+                height: 2500px;
                 width: 700px;
             }
         }
@@ -106,5 +106,108 @@ body{
     }
     #section3, #section5{
         padding-top: 80px;
+    }
+}
+
+
+
+@media all and (max-width:768px){
+    .slider-header{
+        padding-bottom: 20px;
+    }
+    #contents{
+        padding:20px 0px;
+    }
+    #container-wrapper{
+        #section1{
+            padding-right: 0px;
+            padding-left: 0px;
+            .sec-1{
+                #text{
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+        #section2{
+            flex-wrap: wrap;
+            #sec-2-right{
+                padding:0;
+                img{
+                    width:350px;
+                    height:150px;
+                }
+            }
+            #sec-2-left{
+                #sec-2-left-text{
+                    font-size: 15px;
+                    text-align: center;
+                    padding:20px;
+                }
+            }
+        }
+        #section3{
+            padding-top:20px;
+            .sec-3{
+                #text{
+                    font-size:20px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+        #section4{
+            padding-top: 5px;
+            .sec-4{
+                padding:10px;
+                #sec-4-text{
+                    font-size: 17px;
+                    text-align: center;
+                    padding:15px 0px;
+                    margin:0;
+                    width:100%;
+                }
+            }
+        }
+        #section5{
+            padding-top:50px;
+            .sec-5{
+                #text{
+                    font-size:35px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+        #section6{
+            #sec-6-left{
+                .item{
+                    #list-item{
+                        font-size:22px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                    #list-sub-item{
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                }
+            }
+            #sec-6-right{
+                img{
+                    width:350px;
+                    height:250px;
+                }
+            }
+        }
+        .button{
+            display: block;
+            .sec-6-btn{
+                font-size: 13px;
+                text-align: center;
+            }
+        }
+
     }
 }
