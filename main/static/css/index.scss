@@ -527,6 +527,11 @@ $footerBgColor:#0b2d35;
         padding:20px;
         .promise-cards{
             padding:20px;
+            .flex-grow{
+                .text-base{
+                    font-size: 18px;
+                }
+            }
         }
         .tab-icon-wrapper{
             width:80px;
