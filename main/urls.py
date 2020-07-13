@@ -1,5 +1,7 @@
 from django.urls import path
+from django.conf.urls import handler404 
 from . import views
+
 
 
 app_name = 'main'  # here for namespacing of urls.
@@ -16,3 +18,5 @@ urlpatterns = [
     path("strategy/", views.strategy, name="strategy")
 
 ]
+
+
